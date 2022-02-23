@@ -82,8 +82,11 @@ header .header-section-form form input[placeholder].search {
     background-size: contain;
     background-repeat: no-repeat;
 }
-header .header-section-form form input[placeholder].search:focus {
-    background-image: none;
+header .header-section-form form input[placeholder].location {
+    background-image: url('../assets/location-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5px;
 }
 header .header-section-form form select {
     border: none;
@@ -92,7 +95,7 @@ header .header-section-form form select {
 }
 header .header-section-form form select option {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.9rem;
 }
 header .header-section-form input[type=submit] {
     padding: 0 40px;
